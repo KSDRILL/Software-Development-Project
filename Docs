@@ -1,0 +1,70 @@
+# Software Requirements Specification (SRS)
+## 1. Introduction
+
+### 1.1 Purpose
+This document describes the requirements for the Institutional Asset Management System, a web-based solution for managing the lifecycle of institutional laptops and computers.
+
+### 1.2 Scope
+The system provides features for asset registration, tracking, updating, disposal, searching, and reporting. It is intended for use by administrative staff and IT personnel.
+
+### 1.3 Definitions, Acronyms, and Abbreviations
+- **Asset:** Institutional laptop or computer
+- **Disposal:** Process of removing an asset from inventory
+- **CRUD:** Create, Read, Update, Delete
+- **Admin:** User with full system privileges
+
+## 2. Overall Description
+
+### 2.1 Product Perspective
+- Standalone web application
+- Accessible on campus network or secure VPN
+
+### 2.2 User Classes and Characteristics
+- **Admin:** Full access, can manage users and assets
+- **IT Staff:** Can register, update, and dispose of assets
+- **Standard User:** View/search assets
+
+### 2.3 Operating Environment
+- Runs on Linux or Windows server
+- Python 3.x, Flask, MySQL/SQLite, modern web browser
+
+### 2.4 Design and Implementation Constraints
+- Must use Flask and Bootstrap
+- Use Git & GitHub for version control
+
+## 3. System Features
+
+### 3.1 Asset Registration
+- Register new laptops/computers with details (serial, model, department, etc.)
+
+### 3.2 Asset Update
+- Edit asset details (status, user, location)
+
+### 3.3 Asset Disposal
+- Mark asset as disposed, provide reason and date
+
+### 3.4 Asset Search & Filter
+- Search by serial, status, department, etc.
+
+### 3.5 Reporting
+- Generate and export asset lists/reports
+
+### 3.6 Authentication
+- Secure login, password reset
+
+## 4. Non-Functional Requirements
+
+- **Security:** Password hashing, access controls
+- **Usability:** Intuitive UI, responsive design
+- **Reliability:** Regular backups, error handling
+- **Performance:** Fast page loads, efficient queries
+
+## 5. Appendices
+
+- Entity-Relationship Diagram (ERD)
+- UI Mockups (if available)
+- References
+
+---
+
+*Document version: 0.1 | Drafted on: 2025-08-08*
