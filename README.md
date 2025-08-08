@@ -27,8 +27,8 @@ A web-based platform for registering, tracking, updating, and disposing of insti
 ## Setup Instructions
 
 ```bash
-git clone https://github.com/KSDRILL/institutional-asset-management.git
-cd institutional-asset-management
+git clone https://github.com/KSDRILL/Software-Development-Project.git
+cd Software-Development-Project
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
